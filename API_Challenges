@@ -1,0 +1,26 @@
+{ "challenges" : [
+	{
+	 "id" : 1,
+	 "title" : "Bring your own cup",
+	 "description" : "Bring a reusable cup for tea/coffee instead of disposing one",
+	 "points" : {
+		 "awarded" : 5,
+		 "threshold" : 0
+	 },
+	 "completed" : false,
+	 "inProgress" : false,
+	 "tip" : "Well done!"
+	},
+	{
+	 "id" : 2,
+	 "title" : "Bring your own bag",
+	 "description" : "Bring an eco-friendly bag to carry your goods/groceries today",
+	 "points" : {
+		 "awarded" : 5,
+		 "threshold" : 0
+	 },
+	 "completed" : false,
+	 "inProgress" : false,
+	 "tip" : ""
+	}
+] }
