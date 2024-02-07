@@ -63,4 +63,20 @@ When we have sufficient points accumulated we can see that the `Medium Challenge
 
 ![Challenges Unlocked](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/CODE%20/Images/challenges.4.png?raw=true)
 
-  
+
+## **Profile Page Component** 
+
+The `ProfilePage Component` is for the user to see their *active* challenges and mark them as `completed` if they wish. It uses the same filtering function and the same `ActiveChall` and `CompleteChall` variables as in the `Challenges Component`.  
+
+The *in progress* challenges are rendered into a table for the user to find **easily** and **quickly**. There is also buttons for clearing *active* challenges and for a `weekly reset`, allowing the user to access this functionality in multiple locations. 
+
+When we *complete* challenges we can see that the accumulated points value (`currentPointTotal`) has risen. 
+
+![ProfilePage Dispaly](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/CODE%20/Images/profilePage1.png?raw=true)
+
+Also the point threshold to unlock `The Hard Challenges` has been passed  and they are  available for the user to select. 
+
+The profile page also contains the `Clear All Challenges` button, which will set all *active* challenges **status** to *null* from `in progress`. 
+
+
+
