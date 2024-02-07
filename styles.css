@@ -1,0 +1,364 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+  background-color: #f9f9f9; /* Light gray background color */
+}
+
+
+
+.logo-container {
+
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden; /* Ensure the image doesn't overflow the container */
+}
+
+.logo-banner {
+  width: 100%;
+  height: auto;
+  display: block; /* Remove any default inline spacing */
+}
+
+ /* These are the CSS styles for the home component */
+.home-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #506e31; /* White background color */
+  color: rgb(255, 255, 255); /* White text color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.home-content {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.home-content-container {
+  /*Ignore the name for this I put this around all the text that didnt have a container to make it match up with other text and make it look nicer, the text is not stuck to the wall the padding makes it look more neat , if changing anything in this style make sure to check what text this is linked to  */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* Container background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* This is the profile page component */
+
+.profile-container {
+  /* profile page  */
+ display: flex;
+ flex-direction: column;
+ align-items: center; /* Center items horizontally */
+ justify-content: center; /* Center items vertically */
+ height: 20vh; /
+ max-width: 600px; /* Adjust the maximum width to your preference */
+ margin: 0 auto; /* Center the container horizontally */
+ padding: 10px; /* Adjust the padding for spacing */
+ background-color: white;
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reset-button {
+  /* profile page  */
+  background-color: #d59a91;
+  color: rgb(0, 0, 0); /* White text color */
+ border: none;
+ padding: 15px 30px; /* Adjust padding for better appearance */
+ font-size: 20px; /* Increase font size for emphasis */
+ cursor: pointer;
+ border-radius: 8px;
+ transition: background-color 0.3s ease;
+}
+
+.reset-button1 {
+  /* This is the style for the buttons HOME,PROFILE ALL CHALL AND STATS */
+  background-color: #43732d; /* Blue background color */
+  color: rgb(2, 0, 0); /* White text color */
+  border: none;
+  padding: 15px 30px; /* Adjust padding for better appearance */
+  font-size: 20px; /* Increase font size for emphasis */
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.reset-button1:hover {
+  /* This is the style for the buttons HOME,PROFILE ALL CHALL AND STATS */
+  background-color: #274102; /* Darker blue on hover */
+}
+
+.reset-button:hover {
+  /* profile page  */
+  background-color: #ca5054;
+  color: #ffffff; /* Darker blue on hover */
+}
+
+.styled-table {
+   /* profile page  */
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: linear-gradient(to right, #afd1af, #7ea57e);
+  color: #010e11;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table th,
+ /* profile page  */
+.styled-table td {
+   /* profile page  */
+  border: 1px solid #ecf0f1;
+  padding: 15px;
+  text-align: left;
+}
+/* Table header */
+.styled-table th {
+   /* profile page  */
+  background-color: #43732d;
+}
+
+.styled-table tbody tr:nth-child(even) {
+   /* profile page  */
+  background-color: #b6c995;
+}
+
+.styled-table tbody tr:hover {
+   /* profile page  */
+  background-color: #aabd88;
+  cursor: pointer;
+}
+
+
+
+.styled-points-container {
+   /* profile page  */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.styled-accumulated-points,
+.styled-points-info {
+   /* profile page  */
+  flex: 1;
+  margin: 10px;
+}
+
+.styled-accumulated-points h2,
+.styled-points-info h2 {
+   /* profile page  */
+  background-color: #43732d;
+  color: #f2f8eb;/* White text color */
+  padding: 20px; /* Increase padding for better spacing */
+  border-radius: 10px;
+  text-align: center; /* Center-align the text */
+  font-size: 28px; /* Increase font size for emphasis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+.styled-challenges-heading {
+  font-size: 24px; /* Adjust font size for emphasis */
+  font-weight: bold; /* Make the text bold */
+  margin-bottom: 10px; /* Add space between the heading and the table */
+  color: #2b6429; /* Darker blue color for the heading */
+}
+
+.profile-container {
+   /* profile page  */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  height: 20vh; /
+  max-width: 600px; /* Adjust the maximum width to your preference */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 10px; /* Adjust the padding for spacing */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+
+
+/* Additional styling for the header is already defined in the .header class */
+
+/* Add these styles to your existing CSS file */
+
+
+.EMHMenu_button {
+  background-color: #43732d;
+  color: #f2f8eb;
+  border: none;
+  padding: 6px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 5px; /*adjust the value for vertical spacing*/
+  margin-bottom: 0px;
+}
+
+.EMHMenu_button:hover {
+  background-color: #2b6429;
+}
+
+.CloseMenu_button {
+  background-color: #b6c995;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 6px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 5px; /*adjust the value for vertical spacing*/
+  margin-bottom: 0px;
+}
+
+.CloseMenu_button:hover {
+  background-color: #a2b68a;
+}
+
+.clearINPROGCOMPLETED_button {
+  background-color: #d59a91;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 6px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 5px; /*adjust the value for vertical spacing*/
+  margin-bottom: 0px;
+ }
+
+.clearINPROGCOMPLETED_button:hover {
+  background-color: #ca5054;
+  color: #ffffff;
+}
+
+.AddToInProgress_button {
+  background-color: #5f9b43;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 13px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.AddToInProgress_button:hover {
+  background-color: #6dac52;
+  color: #f2f8eb;
+}
+
+.InProgress_button {  
+  background-color: #90ac5bda;
+  color: #f2f8e8;
+  border: none;
+  padding: 8px 13px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.challenges_Container {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #eef7eae2;
+  border-color: #d6e9c6;
+}
+.locked_Container {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #763030;
+  background-color: #f6dedd;
+  border-color: #d6e9c6;
+}
+.inProgress_Container {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #e4efe0f4;
+  border-color: #d6e9c6;
+}
+
+.Completed_Container {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #cee0bf;
+  border-color: #d6e9c6;
+}
+
+.Completed_button {  
+  background-color: #86a74a;
+  color: #f3f7ee;
+  border: none;
+  padding: 8px 13px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.Remove_button {
+  background-color: #d59a91;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 13px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.Remove_button:hover {
+  background-color: #ca5054;
+  color: #ffffff;
+}
+
+.AddToCompleted_button {
+  background-color: #5f9b43;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 13px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.AddToCompleted_button:hover {
+  background-color: #6dac52;
+  color: #f2f8eb;
+}
+
+
