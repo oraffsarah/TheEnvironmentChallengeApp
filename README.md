@@ -1,4 +1,19 @@
-The Environment Challenge: Is a mobile app developed by our team, "Team Everest", using JavaScript React, HTML, CSS and Bootstrap. 
+# **The Environment Challenge**
+## **Overview**
+
+The Environment Challenge is a mobile app developed by our team, **"Team Everest"**, using *JavaScript React, HTML, CSS* and *Bootstrap*. 
+
+*React* version 18.2.0 (Date 07 FEB 24). 
+
+This readme will provide an overview of the app's components and their functionality.
+
+## **Running the Software**
+
+The app can be run in code-sandbox [here](https://codesandbox.io/dashboard/recent). Running the app will require the dependencies: `bootstrap.js` and `chart.js`.
+
+## **Component Breakdown**
+
+
 
 The app accesses our custom online database of challenges through GitHub. The user can take on challenges to help improve the environment and earn points. 
 
