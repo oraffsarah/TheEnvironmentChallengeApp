@@ -3,7 +3,9 @@ The Environment Challenge: Is a mobile app developed by our team, "Team Everest"
 The app accesses our custom online database of challenges through GitHub. The user can take on challenges to help improve the environment and earn points. 
 
 My Responsibilities:
+
 Programmed the “Challenges” component.  
+
 This component displays all the challenges from the data for the user, and has four sub-components. A top-bar menu displays button for the user, to select easy, medium, or hard challenges using conditional rendering. 
 The medium and hard challenges are initially locked. The user must accumulate a number of points, before they become available. This is achieved by using conditional rendering to dislay the locked challenges component should
 the currentTotalPoints be below the required threshold.   
