@@ -33,17 +33,12 @@ Other functions inlcude updating the current, weekly and all-time points the use
 
 The Home Component contains the welcoming text for the app, explaining briefly what the app does and who it's aimed at. A few simple paragraphs to welcome the user and inform right away, this is the default page.
 
+![Home Display](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/CODE%20/Images/home.png?raw=true)
 
-
-ccesses our custom online database of challenges through GitHub. The user can take on challenges to help improve the environment and earn points. 
-
-My Responsibilities:
-
-Programmed the “Challenges” component.  
+## **Challenges Component** 
 
 This component displays all the challenges from the data for the user, and has four sub-components. A top-bar menu displays button for the user, to select easy, medium, or hard challenges using conditional rendering. 
-The medium and hard challenges are initially locked. The user must accumulate a number of points, before they become available. This is achieved by using conditional rendering to dislay the locked challenges component should
-the currentTotalPoints be below the required threshold.   
+The medium and hard challenges are initially locked. The user must accumulate a number of points, before they become available. This is achieved by using conditional rendering to dislay the locked challenges component should the currentTotalPoints be below the required threshold.   
 Within each section, individual challenges with varying points are attached to them. The user can accept these challenges by clicking the add to in progress button, which changes the status to ‘in progress’, and in turn  
 displays them in the InProgressBasket Component, where they can be removed, or marked as completed with buttons.  
 
