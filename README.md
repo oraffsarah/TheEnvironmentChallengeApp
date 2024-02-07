@@ -5,7 +5,7 @@ The Environment Challenge is a mobile app developed by our team, **"Team Everest
 
 *React* version 18.2.0 (Date 07 FEB 24). 
 
-This readme will provide an overview of the app's components and their functionality.
+This readme will provide an overview of the app's components and their functionality. The main concept of this project is to develop an application where a user is able to accept a wide variety of **environmentally friendly challenges**, that they are able to keep track of through the application , over a number of weeks, while the challenges increase in difficulty as you progress through them. 
 
 ## **Running the Software**
 
@@ -13,9 +13,9 @@ The app can be run in code-sandbox [here](https://codesandbox.io/dashboard/recen
 
 ## **Component Breakdown**
 
-
-
-The app accesses our custom online database of challenges through GitHub. The user can take on challenges to help improve the environment and earn points. 
+ The app's components are:
+ App.js  Home.js  PointsChart.js  API.js
+ accesses our custom online database of challenges through GitHub. The user can take on challenges to help improve the environment and earn points. 
 
 My Responsibilities:
 
