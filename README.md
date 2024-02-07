@@ -14,8 +14,16 @@ The app can be run in code-sandbox [here](https://codesandbox.io/dashboard/recen
 ## **Component Breakdown**
 
  The app's components are:
- App.js  Home.js  PointsChart.js  API.js
- accesses our custom online database of challenges through GitHub. The user can take on challenges to help improve the environment and earn points. 
+ `App.js` , `Home.js` , `Profile Page.js` , `challenges.js` , `PointsChart.js` , `API.js` , `index.js` , `styles.js`
+
+ ## **App Component** 
+
+The main app consists mostly of functionality used throughout all components. 
+Data from the [JSON file]() is taken in as an array. A function called changeStatus() is used to update this array whilst being careful not to mess with the UseState. 
+
+The app hinges on the idea that every 'challenge' has a status; 'null', 'in progress', or 'completed'. 
+The App has other functions such as Updating the current, weekly and all-time points the user has accumulated. This uses the idea of 'Write once, Read many' so that other components in the app need only be passed these functions by props, and this allows each component to communicate smoothly and update automatically. 
+accesses our custom online database of challenges through GitHub. The user can take on challenges to help improve the environment and earn points. 
 
 My Responsibilities:
 
