@@ -54,7 +54,7 @@ Within each section, individual challenges with varying points are attached to t
 
 The latter changes the status to *‘completed’*, which means they are then moved to the `CompletedBasket Component`. The user then gets a congratulatory message which is displayed in the `CompletedBasket component`. 
 
-The buttons in the challenge sections change as the user goes through completing them, and become unclickable if they are already `in progress` or `completed`. 
+The buttons in the challenge sections change as the user goes through completing them, and become unclickable if they are already *in progress* or *completed*. 
 
 A variable called `activeChall` uses a filter which takes only challenges that have a status of `‘in progress’`, and similarly, `completeChall` filters challenges with the status `‘completed’`. Properties of these two filtered arrays are used to populate both the `InProgressBasket`, and the `CompletedBasket`, and update as the data from the App is altered. There is also functionality for the user to empty their `‘in progress’ challenges`, or do a `‘weekly reset’` in the menu. The weekly 
 reset uses the function from the main app to log that weeks points and set everything back to zero. 
@@ -76,7 +76,21 @@ When we *complete* challenges we can see that the accumulated points value (`cur
 
 Also the point threshold to unlock `The Hard Challenges` has been passed  and they are  available for the user to select. 
 
-The profile page also contains the `Clear All Challenges` button, which will set all *active* challenges **status** to *null* from `in progress`. 
+The profile page also contains the `Clear All Challenges` button, which will set all *active* challenges **status** to *null* from *in progress*. 
 
+## **PointsChart Component**
+
+The `PointsChart Component` allows the user to see their past progress through a chart that displays **weekly totals**. The user can see the trend of their **past four weeks**, as well as their **all-time point total**, taken from the main App. At the end of every week the user hits the `weekly reset` button to store their **points**. 
+
+These four totals are *sliced* from the `weeklyPointTotal` array, and populates as the user continues to log more weeks.  
+
+The user can also see the **highest weekly total** recorded as part of this section, and the `compareWeekTotal` variable is used to allow the user to see how they’re improving. These are both conditionally rendered. 
+
+You can see here the user's **weekly scores** compared to one another.
+
+As the **weekly totals** are updated the component destroys any existing charts, and instantiates another with the new information. Conditional rendering means that the chart only activates once the user has logged at least one week. 
+
+![Stats EmptyDisplay](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/CODE%20/Images/stats.png?raw=true)
+![Stats Display](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/CODE%20/Images/stats.png?raw=true)
 
 
