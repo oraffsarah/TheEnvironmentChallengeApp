@@ -1,6 +1,6 @@
 The Environment Challenge: Is a mobile app developed by our team, "Team Everest", using JavaScript React, HTML, CSS and Bootstrap. 
 
-The app accesses our custom online database of challenges through GitHub. The user can take on challenges to help improve the environment and earn points while doing so. 
+The app accesses our custom online database of challenges through GitHub. The user can take on challenges to help improve the environment and earn points. 
 
 My Responsibilities:
 Programmed the “Challenges” component.  
