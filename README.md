@@ -74,8 +74,6 @@ When we *complete* challenges we can see that the accumulated points value (`cur
 
 ![ProfilePage Dispaly](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/CODE%20/Images/profilePage1.png?raw=true)
 
-Also the point threshold to unlock `The Hard Challenges` has been passed  and they are  available for the user to select. 
-
 The profile page also contains the `Clear All Challenges` button, which will set all *active* challenges **status** to *null* from *in progress*. 
 
 ## **PointsChart Component**
@@ -91,6 +89,18 @@ You can see here the user's **weekly scores** compared to one another.
 As the **weekly totals** are updated the component destroys any existing charts, and instantiates another with the new information. Conditional rendering means that the chart only activates once the user has logged at least one week. 
 
 ![Stats EmptyDisplay](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/CODE%20/Images/stats.png?raw=true)
-![Stats Display](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/CODE%20/Images/stats.png?raw=true)
+![Stats Display](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/CODE%20/Images/stats1.png?raw=true)
+
+
+
+## **API Component**
+
+Our API database contains *Challenges*, each with it's own unique `id`, `title` , `level` , `description` , `points` , `awarded` , `threshold` , `status` and  `tip`.
+
+[JSON file](https://raw.githubusercontent.com/DeclanDavis/TheEnvironmentChallengeApp/main/CODE%20/BackUpAPI.js)
+
+
+
+
 
 
