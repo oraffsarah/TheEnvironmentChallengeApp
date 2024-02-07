@@ -14,16 +14,28 @@ The app can be run in code-sandbox [here](https://codesandbox.io/dashboard/recen
 ## **Component Breakdown**
 
  The app's components are:
- `App.js` , `Home.js` , `Profile Page.js` , `challenges.js` , `PointsChart.js` , `API.js` , `index.js` , `styles.js`
+ 
+| `App.js` | `Home.js` | `ProfilePage.js` | `challenges.js` |
+|----------|----------|----------|----------|
+| `PointsChart.js` | `API.js` |    `index.js` |    `styles.js` |
+ 
+
 
  ## **App Component** 
 
-The main app consists mostly of functionality used throughout all components. 
-Data from the [JSON file]() is taken in as an array. A function called changeStatus() is used to update this array whilst being careful not to mess with the UseState. 
+The App component consists of functionality to be used throughout all components. 
+Data from the [JSON file](https://raw.githubusercontent.com/DeclanDavis/TheEnvironmentChallengeApp/main/CODE%20/BackUpAPI.js) is taken in as an array. A function called `changeStatus()` is used to update this array whilst being careful not to mess with the `useState`. 
 
-The app hinges on the idea that every 'challenge' has a status; 'null', 'in progress', or 'completed'. 
-The App has other functions such as Updating the current, weekly and all-time points the user has accumulated. This uses the idea of 'Write once, Read many' so that other components in the app need only be passed these functions by props, and this allows each component to communicate smoothly and update automatically. 
-accesses our custom online database of challenges through GitHub. The user can take on challenges to help improve the environment and earn points. 
+The app hinges on the idea that every **'challenge'** has a **status**; **'null'**, **'in progress'**, or **'completed'**. 
+Other functions inlcude updating the current, weekly and all-time points the user has accumulated. This uses the idea of **'Write once, read many'** so that other components in the app need only be passed these functions by **props**, and this allows each component to communicate smoothly and update automatically. 
+
+## **Home Component** 
+
+The Home Component contains the welcoming text for the app, explaining briefly what the app does and who it's aimed at. A few simple paragraphs to welcome the user and inform right away, this is the default page.
+
+
+
+ccesses our custom online database of challenges through GitHub. The user can take on challenges to help improve the environment and earn points. 
 
 My Responsibilities:
 
