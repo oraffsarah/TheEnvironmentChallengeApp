@@ -1,9 +1,15 @@
 # **The Environment Challenge**
 ## **Overview**
 
-The Environment Challenge is a mobile app developed by our team, **"Team Everest"**, using *JavaScript React, HTML, CSS* and *Bootstrap*. 
+The Environment Challenge is a mobile app developed by our team, **"Team Everest"**, using *JavaScript React, HTML, CSS* and *Bootstrap*.
+
+The contributors of Team Everest can be found [here](
+This project was a part of our module, **Mobile Application Development CS385**, in Maynooth University, National University of Ireland Maynooth. 
+This module is worth 5 credits.
 
 *React* version 18.2.0 (Date 07 FEB 24). 
+
+
 
 This readme will provide an overview of the app's components and their functionality. The main concept of this project is to develop an application where a user is able to accept a wide variety of **environmentally friendly challenges**, that they are able to keep track of through the application , over a number of weeks, while the challenges increase in difficulty as you progress through them. 
 
@@ -95,9 +101,12 @@ As the **weekly totals** are updated the component destroys any existing charts,
 
 ## **API Component**
 
+Our API responds with JSON and we have a static JSON file for this. [JSON file](https://raw.githubusercontent.com/DeclanDavis/TheEnvironmentChallengeApp/main/CODE%20/BackUpAPI.js)
 Our API database contains *Challenges*, each with it's own unique `id`, `title` , `level` , `description` , `points` , `awarded` , `threshold` , `status` and  `tip`.
 
-[JSON file](https://raw.githubusercontent.com/DeclanDavis/TheEnvironmentChallengeApp/main/CODE%20/BackUpAPI.js)
+The development of a backend API was not a requirement of the project specification however our team agreed it was a strong strategy for our project.
+
+
 
 
 
