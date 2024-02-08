@@ -3,7 +3,8 @@
 
 The Environment Challenge is a mobile app developed by our team, **"Team Everest"**, using *JavaScript React, HTML, CSS* and *Bootstrap*.
 
-The contributors of Team Everest can be found [here](
+Team Everest can be found in the contributors file [here](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/CONTRIBUTORS.md).
+
 This project was a part of our module, **Mobile Application Development CS385**, in Maynooth University, National University of Ireland Maynooth. 
 This module is worth 5 credits.
 
