@@ -44,7 +44,7 @@ The `Home Component` contains the welcoming text for the app, explaining briefly
 The `Challenges Component` displays all the challenges from the data for the user, and has four sub-components. A top-bar menu displays button for the user, to select `Easy`, `Medium`, or `Hard` challenges using conditional rendering. 
 ![Challenges easy](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/CODE%20/Images/challenges.1.png?raw=true)
 
-The `Medium` and `Hard` challenges are initially *locked*. The user must accumulate a number of points, before they become available. This is achieved by using conditional rendering to dislay the `locked challenges component` should the `currentPointTotal` be below the required *threshold*. 
+The `Medium` and `Hard` challenges are initially *locked*. The user must accumulate a number of points, before they become available. This is achieved by using conditional rendering to display the `Locked Challenges Component` should the `currentPointTotal` be below the required *threshold*. 
 
 ![Challenges locked](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/CODE%20/Images/challenges.2.png?raw=true)
 
