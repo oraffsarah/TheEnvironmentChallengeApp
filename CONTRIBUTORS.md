@@ -1,6 +1,6 @@
 ## **Contributors**
 
-The Environment Challenge App is programmed by **Team Everest**.
+**The Environment Challenge App** is programmed by **Team Everest**.
 
 ## **Team Everest**
 
