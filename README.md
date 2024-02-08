@@ -56,7 +56,7 @@ The latter changes the status to *‘completed’*, which means they are then mo
 
 The buttons in the challenge sections change as the user goes through completing them, and become unclickable if they are already *in progress* or *completed*. 
 
-A variable called `activeChall` uses a filter which takes only challenges that have a status of `‘in progress’`, and similarly, `completeChall` filters challenges with the status `‘completed’`. Properties of these two filtered arrays are used to populate both the `InProgressBasket`, and the `CompletedBasket`, and update as the data from the App is altered. There is also functionality for the user to empty their `‘in progress’ challenges`, or do a `‘weekly reset’` in the menu. The weekly 
+A variable called `activeChall` uses a filter which takes only challenges that have a status of *‘in progress’*, and similarly, `completeChall` filters challenges with the status *‘completed’*. Properties of these two filtered arrays are used to populate both the `InProgressBasket`, and the `CompletedBasket`, and update as the data from the App is altered. There is also functionality for the user to empty their `‘in progress’ challenges`, or do a `‘weekly reset’` in the menu. The weekly 
 reset uses the function from the main app to log that weeks points and set everything back to zero. 
 
 When we have sufficient points accumulated we can see that the `Medium Challenges` are *unlocked*. You are now able to view the `Medium Challenges` that are available. This is the case for when the Hard Challenges are unlocked also. 
@@ -66,7 +66,7 @@ When we have sufficient points accumulated we can see that the `Medium Challenge
 
 ## **Profile Page Component** 
 
-The `ProfilePage Component` is for the user to see their *active* challenges and mark them as `completed` if they wish. It uses the same filtering function and the same `ActiveChall` and `CompleteChall` variables as in the `Challenges Component`.  
+The `ProfilePage Component` is for the user to see their *active* challenges and mark them as *completed* if they wish. It uses the same filtering function and the same `ActiveChall` and `CompleteChall` variables as in the `Challenges Component`.  
 
 The *in progress* challenges are rendered into a table for the user to find **easily** and **quickly**. There is also buttons for clearing *active* challenges and for a `weekly reset`, allowing the user to access this functionality in multiple locations. 
 
