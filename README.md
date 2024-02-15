@@ -36,7 +36,7 @@ Data from the [JSON file](https://raw.githubusercontent.com/DeclanDavis/TheEnvir
 The user can select the `Home` , `Profile` , `All Challenges` or `Stats` button from here.
 
 The app hinges on the idea that every `'challenge'` has a **status**; `'null'`, `'in progress'`, or `'completed'`. 
-Other functions inlcude updating the current, weekly and all-time points the user has accumulated. This uses the idea of **'Write once, read many'** so that other components in the app need only be passed these functions by **props**, and this allows each component to communicate smoothly and update automatically. 
+Other functions include updating the current, weekly and all-time points the user has accumulated. This uses the idea of **'Write once, read many'** so that other components in the app need only be passed these functions by **props**, and this allows each component to communicate smoothly and update automatically. 
 
 ![App Display](https://github.com/DeclanDavis/TheEnvironmentChallengeApp/blob/main/code/images/app.png?raw=true)
 
