@@ -1,4 +1,9 @@
 # **The Environment Challenge**
+### Edit
+*This project folder is forked from another contributor.*
+
+My role in this project was to create the functionality for our app and ensure all components could communicate efficiently and automatically. I was mainly in charge of the `App.js`, creating the functions my team members would use in their components. I came up with the methods to make our project function, how to utilise arrays, etc. I also wrote the `Home.js` component, which is the welcoming page for the application.
+
 ## **Overview**
 
 The Environment Challenge is a mobile app developed by our team, **"Team Everest"**, using *JavaScript React, HTML, CSS* and *Bootstrap*.
